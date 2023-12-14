@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .botonesGrilla {
+    padding-bottom: 15px;
+  }
+  
+  .botones {
+    padding: 5px 25px;
+    border-radius: 8px;
+    align-items: center;
+    margin: 8px 8px;
+    background: linear-gradient(to bottom, #333333, #666666);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #555555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .botones:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  

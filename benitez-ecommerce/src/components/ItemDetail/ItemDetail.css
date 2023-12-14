@@ -1,0 +1,37 @@
+body {
+    font-family: 'Times New Roman', serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .imgLike {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .classItemDetail {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttonItemDetail {
+    margin: 25px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #333333, #666666);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #555555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttonItemDetail:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  

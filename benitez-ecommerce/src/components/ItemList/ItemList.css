@@ -1,0 +1,74 @@
+/* ItemList.css */
+
+/* Adjust font-family to Times New Roman */
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Modify colors to black, grey, and white */
+  body {
+    color: black;
+    background-color: white;
+  }
+  
+  /* No changes needed for .item-list */
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  /* No changes needed for .item-list, .item, and .img-container */
+  .item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  /* No changes needed for .item-img */
+  .item-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* No changes needed for .item-info */
+  .item-info {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* No changes needed for .item-title and .item-price */
+  .item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    color: grey;
+  }
+  
+  /* No changes needed for .item-btn */
+  .item-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* No changes needed for .item-btn:hover */
+  .item-btn:hover {
+    background-color: grey;
+  }
+  

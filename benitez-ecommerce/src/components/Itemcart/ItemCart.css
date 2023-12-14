@@ -1,0 +1,80 @@
+/* ItemCart.css */
+
+/* Adjust font-family to Times New Roman */
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Modify colors to black, grey, and white */
+  body {
+    color: black;
+    background-color: white;
+  }
+  
+  .divCart {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: groove;
+    border-color: rgb(165, 165, 165);
+  }
+  
+  .imgCart {
+    max-height: 100px;
+  }
+  
+  .labelClass {
+    margin: 15px;
+    & label {
+      padding: 5px;
+    }
+  }
+  
+  .totalClass {
+    padding: 30px;
+    & button {
+      margin-top: 15px;
+      padding: 20px;
+    }
+  }
+  
+  .buttonClass {
+    margin: 30px;
+    & button {
+      margin: 20px;
+    }
+  }
+  
+  .tyBuy {
+    margin: 0 auto;
+    max-height: 500px;
+  }
+  
+  /* Additional styling for ItemCart component */
+  .strong1,
+  .cart {
+    color: antiquewhite;
+    font-size: x-large;
+    padding: 0 10px 0 10px;
+  }
+  
+  .strong1 {
+    background-color: blueviolet;
+    border-radius: 30%;
+    margin-right: 10px;
+  }
+  .my-custom-btn {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-custom-btn:hover {
+    background-color: green;
+    color: white;
+  }

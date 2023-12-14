@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+/* Adjust font-family to Times New Roman */
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Modify colors to black, grey, and white */
+  body {
+    color: black;
+    background-color: white;
+  }
+  
+  /* No changes needed for .navbar */
+  .navbar {
+    max-width: 1280px;
+    margin-bottom: 5px;
+  }
+  
+  /* No changes needed for .nav-link */
+  .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* No changes needed for .imgLogo */
+  .imgLogo {
+    width: 55px;
+    margin-left: 15px;
+    margin-right: 15px;
+    &:hover {
+      transform: scale(1.10);
+    }
+  }
+  
+  /* No changes needed for h5 */
+  h5 {
+    color: antiquewhite;
+    padding: 10px;
+  }
+  

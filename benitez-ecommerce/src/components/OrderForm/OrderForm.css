@@ -1,0 +1,92 @@
+/* OrderForm.css */
+
+/* Set font-family to Times New Roman */
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Modify colors to black, grey, and white */
+  body {
+    color: black;
+    background-color: white;
+  }
+  
+  .renderNotEmptyCartClass {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical alignment */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .handleFinishOrderClass {
+    display: flex;
+    flex-direction: column; /* Align the form vertically */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tyBuyClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emptyCartClass {
+    margin: 110px auto; /* Center horizontally */
+    height: 90vh;
+  }
+  
+  .my-custom-btn {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-custom-btn:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  
+  label {
+    color: grey;
+    padding: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid black;
+  }
+  
+  h2,
+  h3 {
+    color: black;
+  }
+  
+  .btn-outline-dark {
+    color: black;
+    border-color: black;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+  .tyBuy {
+    margin: 20px;
+    max-height: 500px;
+  }
+  
